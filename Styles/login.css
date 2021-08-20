@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+/* esto es para resetear todo la pagina  */
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+    scroll-behavior:smooth ;
+    user-select: none;
+    font-family:'Itim';
+    text-decoration: none;  
+} 
+ 
+header {
+    position: relative;
+    display:flex;
+    justify-content: center; 
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+.banner {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+}
+.banner img{
+    width: 100vw;
+    height: 100vh;
+}
+header .contenedor{
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    z-index: 100;
+}
+header .contenedor h1{
+    color:white;
+    font-size: 50px;
+    text-align: center;
+}
+header .contenedor p{
+    text-align: center;
+    color:white;
+    z-index: 101;
+}
+header .contenedor span{
+    margin-left:110px;
+}
+
+header .contenedor  .alterno input {
+    opacity:0.4;
+    border-radius: 5px;
+    width: 270px;
+    line-height: 40px;
+    font-size: 20px;
+    color: black;
+    background-color: rgba(255, 235, 205, 0.5);
+    margin-left:20px ;
+}
+
+::placeholder { 
+    color:black;
+    opacity: 1;
+}
+
+header .contenedor  .alterno input:focus{
+    background-color: gray;
+    color:black;
+    line-height: 40px;
+    font-size: 25px;
+    opacity: 0.5;
+    
+}
+header .contenedor #into{
+    width: 100px;
+    font-size: 20px;
+    line-height: 35px;
+    background: gray;
+    border-radius: 15px;
+    cursor: pointer;
+    color: white;
+    border: white;
+    opacity: 0.8;
+    margin-left: 105px;
+    margin-top: 10px;
+}
+a{
+    color: white;
+}
+h2{
+    color: black;
+}
+header .contenedor #into:hover{
+    width: 110px;
+    background: rgba(199, 199, 199, 0.822);
+    transition: all 0.5s;
+}
+
+
+
+
+
